@@ -1,0 +1,40 @@
+{
+ "kind": "youtube#channelListResponse",
+ "items": [
+  {
+   "kind": "youtube#channel",
+   "id": "UCbrandonsanderson000003",
+   "snippet": {
+    "title": "Brandon Sanderson",
+    "description": "The official channel of author Brandon Sanderson. Updates on the Cosmere, Stormlight Archive and Mistborn. https://www.brandonsanderson.com",
+    "customUrl": "@brandonsanderson",
+    "publishedAt": "2012-03-01T10:00:00Z",
+    "country": "US",
+    "defaultLanguage": "en"
+   },
+   "brandingSettings": {
+    "channel": {
+     "title": "Brandon Sanderson",
+     "keywords": "sanderson cosmere stormlight"
+    }
+   },
+   "topicDetails": {
+    "topicCategories": [
+     "https://en.wikipedia.org/wiki/Book",
+     "https://en.wikipedia.org/wiki/Literature"
+    ]
+   },
+   "statistics": {
+    "videoCount": "600",
+    "viewCount": "1000000",
+    "subscriberCount": "900000",
+    "hiddenSubscriberCount": false
+   },
+   "contentDetails": {
+    "relatedPlaylists": {
+     "uploads": "UUbrandonsanderson000003"
+    }
+   }
+  }
+ ]
+}

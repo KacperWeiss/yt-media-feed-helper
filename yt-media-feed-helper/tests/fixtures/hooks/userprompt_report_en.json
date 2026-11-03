@@ -1,0 +1,8 @@
+{
+ "session_id": "sess-test-2",
+ "transcript_path": "C:/Users/u/.claude/projects/x/t.jsonl",
+ "cwd": "WORKSPACE",
+ "permission_mode": "default",
+ "hook_event_name": "UserPromptSubmit",
+ "prompt": "Summarize how the community received the latest Europa Universalis 5 DLC announcement."
+}

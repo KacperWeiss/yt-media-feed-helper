@@ -1,0 +1,145 @@
+# Catalog fixture: 6 channels (EN strategy publisher, Polish EU5 creator, book author,
+# book reviewer, a channel with injection, a media partner with comments disabled).
+schema_version: 1
+channels:
+  UCparadoxinteractive0001:
+    title: Paradox Interactive
+    handle: '@paradoxinteractive'
+    sources:
+      youtube: {channel_id: UCparadoxinteractive0001, uploads_playlist: UUparadoxinteractive0001}
+      steam: {appids: [3450310]}
+    status: approved
+    added_at: '2026-10-01T10:00:00Z'
+    added_via: subscriptions_sync
+    subscription_lost_at: null
+    categories:
+      channel_type:
+        - {value: Game publisher, source: agent, confidence: 0.97, rationale: Official publisher channel, evidence_refs: [], approved_by_user_at: '2026-10-01T11:00:00Z'}
+      content:
+        - {value: Gaming, source: agent, confidence: 0.99, rationale: 'topicCategories: Video_game_culture'}
+      communication:
+        - {value: Official, source: agent, confidence: 0.95, rationale: Owner of the EU/HoI brands}
+      specialization:
+        - {value: Europa Universalis, source: agent, confidence: 0.8, rationale: 7/12 videos about EU5}
+        - {value: Hearts of Iron, source: agent, confidence: 0.7, rationale: 3/12 videos about HoI4}
+      subscription:
+        - {value: Subscriber, source: agent, confidence: 1.0, rationale: subscriptions.list mine=true}
+      language_region:
+        - {value: EN, source: agent, confidence: 0.9, rationale: defaultLanguage=en}
+    notes: DLC announcements usually also on Steam.
+    taxonomy_version_at_categorization: 1
+  UCpolskistrateg000000002:
+    title: Polski Strateg
+    handle: '@polskistrateg'
+    sources:
+      youtube: {channel_id: UCpolskistrateg000000002, uploads_playlist: UUpolskistrateg000000002}
+      steam: {appids: []}
+    status: approved
+    added_at: '2026-10-01T10:00:00Z'
+    added_via: subscriptions_sync
+    subscription_lost_at: null
+    categories:
+      channel_type:
+        - {value: YouTube creator, source: agent, confidence: 0.9, rationale: Independent creator channel}
+      content:
+        - {value: Gaming, source: agent, confidence: 0.95, rationale: Strategy games}
+      communication:
+        - {value: Unofficial, source: agent, confidence: 0.9, rationale: Independent creator}
+      specialization:
+        - {value: Europa Universalis, source: agent, confidence: 0.55, rationale: Some videos about EU5}
+        - {value: Strategy, source: user, locked: true, set_at: '2026-10-02T10:00:00Z'}
+      subscription:
+        - {value: Supporter, source: user, locked: true, set_at: '2026-10-02T10:00:00Z'}
+      language_region:
+        - {value: PL, source: agent, confidence: 0.95, rationale: Titles in Polish}
+    notes: null
+    taxonomy_version_at_categorization: 1
+  UCbrandonsanderson000003:
+    title: Brandon Sanderson
+    handle: '@brandonsanderson'
+    sources:
+      youtube: {channel_id: UCbrandonsanderson000003, uploads_playlist: UUbrandonsanderson000003}
+      steam: {appids: []}
+    status: approved
+    added_at: '2026-10-01T10:00:00Z'
+    added_via: subscriptions_sync
+    subscription_lost_at: null
+    categories:
+      channel_type:
+        - {value: Book author, source: agent, confidence: 0.98, rationale: Author channel}
+      content:
+        - {value: Books, source: agent, confidence: 0.99, rationale: Fantasy books}
+      communication:
+        - {value: Official, source: agent, confidence: 0.97, rationale: Author channel}
+      specialization:
+        - {value: Brandon Sanderson / Cosmere, source: agent, confidence: 0.99, rationale: Cosmere}
+      subscription:
+        - {value: Subscriber, source: agent, confidence: 1.0, rationale: subscriptions.list mine=true}
+      language_region:
+        - {value: EN, source: agent, confidence: 0.95, rationale: defaultLanguage=en}
+    notes: null
+    taxonomy_version_at_categorization: 1
+  UCczytelniarecenzji00004:
+    title: Czytelnia Recenzji
+    handle: '@czytelnia'
+    sources:
+      youtube: {channel_id: UCczytelniarecenzji00004, uploads_playlist: UUczytelniarecenzji00004}
+      steam: {appids: []}
+    status: approved
+    added_at: '2026-10-01T10:00:00Z'
+    added_via: subscriptions_sync
+    subscription_lost_at: null
+    categories:
+      channel_type:
+        - {value: Book reviewer, source: agent, confidence: 0.9, rationale: Reviews}
+      content:
+        - {value: Books, source: agent, confidence: 0.95, rationale: Book reviews}
+      communication:
+        - {value: Unofficial, source: agent, confidence: 0.9, rationale: Independent reviewer}
+      specialization:
+        - {value: Brandon Sanderson / Cosmere, source: agent, confidence: 0.5, rationale: A few Sanderson reviews}
+      subscription:
+        - {value: Subscriber, source: agent, confidence: 1.0, rationale: subscriptions.list mine=true}
+      language_region:
+        - {value: PL, source: agent, confidence: 0.9, rationale: Titles in Polish}
+    notes: null
+    taxonomy_version_at_categorization: 1
+  UClegitgaming00000000005:
+    title: Totally Legit Gaming
+    handle: '@legitgaming'
+    sources:
+      youtube: {channel_id: UClegitgaming00000000005, uploads_playlist: UUlegitgaming00000000005}
+      steam: {appids: []}
+    status: uncategorized
+    added_at: '2026-10-01T10:00:00Z'
+    added_via: subscriptions_sync
+    subscription_lost_at: null
+    categories:
+      subscription:
+        - {value: Subscriber, source: agent, confidence: 1.0, rationale: subscriptions.list mine=true}
+    notes: null
+  UCstratpartner0000000006:
+    title: Strategy Partner
+    handle: '@stratpartner'
+    sources:
+      youtube: {channel_id: UCstratpartner0000000006, uploads_playlist: UUstratpartner0000000006}
+      steam: {appids: []}
+    status: approved
+    added_at: '2026-10-01T10:00:00Z'
+    added_via: subscriptions_sync
+    subscription_lost_at: null
+    categories:
+      channel_type:
+        - {value: YouTube creator, source: agent, confidence: 0.85, rationale: Independent creator channel}
+      content:
+        - {value: Gaming, source: agent, confidence: 0.95, rationale: Games}
+      communication:
+        - {value: Media partner, source: agent, confidence: 0.75, rationale: Early access from the publisher}
+      specialization:
+        - {value: Europa Universalis, source: agent, confidence: 0.85, rationale: EU5 preview}
+      subscription:
+        - {value: Subscriber, source: agent, confidence: 1.0, rationale: subscriptions.list mine=true}
+      language_region:
+        - {value: EN, source: agent, confidence: 0.9, rationale: EN titles}
+    notes: null
+    taxonomy_version_at_categorization: 1

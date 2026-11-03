@@ -1,0 +1,39 @@
+{
+ "kind": "youtube#channelListResponse",
+ "items": [
+  {
+   "kind": "youtube#channel",
+   "id": "UCnewchannelalpha0000007",
+   "snippet": {
+    "title": "Alpha History",
+    "description": "History documentaries.",
+    "customUrl": "@alphahistory",
+    "publishedAt": "2012-03-01T10:00:00Z",
+    "country": "US",
+    "defaultLanguage": "en"
+   },
+   "brandingSettings": {
+    "channel": {
+     "title": "Alpha History",
+     "keywords": "history"
+    }
+   },
+   "topicDetails": {
+    "topicCategories": [
+     "https://en.wikipedia.org/wiki/History"
+    ]
+   },
+   "statistics": {
+    "videoCount": "40",
+    "viewCount": "1000000",
+    "subscriberCount": "5000",
+    "hiddenSubscriberCount": false
+   },
+   "contentDetails": {
+    "relatedPlaylists": {
+     "uploads": "UUnewchannelalpha0000007"
+    }
+   }
+  }
+ ]
+}

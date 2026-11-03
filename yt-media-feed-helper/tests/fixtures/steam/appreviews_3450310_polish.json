@@ -1,0 +1,80 @@
+{
+ "success": 1,
+ "query_summary": {
+  "num_reviews": 3,
+  "review_score": 6,
+  "review_score_desc": "Mostly Positive",
+  "total_positive": 312,
+  "total_negative": 140,
+  "total_reviews": 452
+ },
+ "reviews": [
+  {
+   "recommendationid": "170000001",
+   "author": {
+    "steamid": "76561198000000001",
+    "num_games_owned": 100,
+    "num_reviews": 5,
+    "playtime_forever": 12844,
+    "playtime_at_review": 12744
+   },
+   "language": "polish",
+   "review": "Nowe eventy Rzeczypospolitej są świetne, unia lubelska wreszcie ma sens.",
+   "timestamp_created": 1793181600,
+   "timestamp_updated": 1793181600,
+   "voted_up": true,
+   "votes_up": 33,
+   "votes_funny": 0,
+   "weighted_vote_score": "0.5",
+   "comment_count": 0,
+   "steam_purchase": true,
+   "received_for_free": false,
+   "written_during_early_access": false
+  },
+  {
+   "recommendationid": "170000002",
+   "author": {
+    "steamid": "76561198000000002",
+    "num_games_owned": 100,
+    "num_reviews": 5,
+    "playtime_forever": 30100,
+    "playtime_at_review": 30000
+   },
+   "language": "polish",
+   "review": "RON tworzy się za łatwo po patchu 1.2. Balans do poprawy.",
+   "timestamp_created": 1793268000,
+   "timestamp_updated": 1793268000,
+   "voted_up": false,
+   "votes_up": 41,
+   "votes_funny": 0,
+   "weighted_vote_score": "0.5",
+   "comment_count": 0,
+   "steam_purchase": true,
+   "received_for_free": false,
+   "written_during_early_access": false
+  },
+  {
+   "recommendationid": "170000003",
+   "author": {
+    "steamid": "76561198000000003",
+    "num_games_owned": 100,
+    "num_reviews": 5,
+    "playtime_forever": 700,
+    "playtime_at_review": 600
+   },
+   "language": "polish",
+   "review": "Gra dobra, ale​ optymalizacja​ słaba.",
+   "timestamp_created": 1793354400,
+   "timestamp_updated": 1793440800,
+   "voted_up": true,
+   "votes_up": 5,
+   "votes_funny": 0,
+   "weighted_vote_score": "0.5",
+   "comment_count": 0,
+   "steam_purchase": true,
+   "received_for_free": false,
+   "written_during_early_access": false
+  }
+ ],
+ "cursor": "PL2"
+}

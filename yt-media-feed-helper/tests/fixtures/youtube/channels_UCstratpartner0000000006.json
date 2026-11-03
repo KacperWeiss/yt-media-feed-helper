@@ -1,0 +1,39 @@
+{
+ "kind": "youtube#channelListResponse",
+ "items": [
+  {
+   "kind": "youtube#channel",
+   "id": "UCstratpartner0000000006",
+   "snippet": {
+    "title": "Strategy Partner",
+    "description": "Strategy game previews and guides. Some videos made with early access provided by publishers.",
+    "customUrl": "@stratpartner",
+    "publishedAt": "2012-03-01T10:00:00Z",
+    "country": "GB",
+    "defaultLanguage": "en"
+   },
+   "brandingSettings": {
+    "channel": {
+     "title": "Strategy Partner",
+     "keywords": "strategy preview"
+    }
+   },
+   "topicDetails": {
+    "topicCategories": [
+     "https://en.wikipedia.org/wiki/Strategy_video_game"
+    ]
+   },
+   "statistics": {
+    "videoCount": "800",
+    "viewCount": "1000000",
+    "subscriberCount": "210000",
+    "hiddenSubscriberCount": false
+   },
+   "contentDetails": {
+    "relatedPlaylists": {
+     "uploads": "UUstratpartner0000000006"
+    }
+   }
+  }
+ ]
+}

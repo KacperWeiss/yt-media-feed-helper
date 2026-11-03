@@ -1,0 +1,23 @@
+{
+  "mcpServers": {
+    "ytfeed": {
+      "command": "python",
+      "args": [
+        "-I",
+        "${CLAUDE_PLUGIN_ROOT}/server/launch.py",
+        "serve"
+      ],
+      "env": {
+        "YTFEED_DATA_DIR": "${CLAUDE_PLUGIN_DATA}",
+        "PYTHONUTF8": "1",
+        "CLAUDE_PLUGIN_OPTION_WORKSPACE_DIR": "${user_config.workspace_dir}",
+        "CLAUDE_PLUGIN_OPTION_GOOGLE_CLIENT_ID": "${user_config.google_client_id}",
+        "CLAUDE_PLUGIN_OPTION_GOOGLE_CLIENT_SECRET": "${user_config.google_client_secret}",
+        "CLAUDE_PLUGIN_OPTION_GOOGLE_CLIENT_SECRET_PATH": "${user_config.google_client_secret_path}",
+        "CLAUDE_PLUGIN_OPTION_MOCK_MODE": "${user_config.mock_mode}",
+        "CLAUDE_PLUGIN_OPTION_REPORT_BUDGET_UNITS": "${user_config.report_budget_units}",
+        "CLAUDE_PLUGIN_OPTION_STRICT_DEPS": "${user_config.strict_deps}"
+      }
+    }
+  }
+}

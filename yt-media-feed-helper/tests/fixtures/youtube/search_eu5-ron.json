@@ -1,0 +1,31 @@
+{
+ "kind": "youtube#searchListResponse",
+ "items": [
+  {
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "srchVid0001"
+   },
+   "snippet": {
+    "publishedAt": "2026-10-31T10:00:00Z",
+    "channelId": "UCsearchonly000000000010",
+    "title": "EU5 RON guide",
+    "channelTitle": "Search Only Channel",
+    "description": "x"
+   }
+  },
+  {
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "plsRON00001"
+   },
+   "snippet": {
+    "publishedAt": "2026-10-30T18:00:00Z",
+    "channelId": "UCpolskistrateg000000002",
+    "title": "EU5: Nowe eventy Rzeczypospolitej Obojga Narodów — czy unia lubelska jest teraz za łatwa?",
+    "channelTitle": "Polski Strateg",
+    "description": "x"
+   }
+  }
+ ]
+}

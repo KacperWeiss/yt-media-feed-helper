@@ -1,0 +1,27 @@
+{
+ "kind": "youtube#videoListResponse",
+ "items": [
+  {
+   "kind": "youtube#video",
+   "id": "plsDLC00001",
+   "snippet": {
+    "publishedAt": "2026-10-27T18:00:00Z",
+    "channelId": "UCpolskistrateg000000002",
+    "title": "Czy warto czekać na pierwszy dodatek do EU5? Moje przemyślenia",
+    "description": "Rozmawiamy o zapowiedzianym dodatku Example Expansion do Europa Universalis V.",
+    "channelTitle": "Polski Strateg",
+    "tags": [
+     "eu5"
+    ]
+   },
+   "contentDetails": {
+    "duration": "PT12M"
+   },
+   "statistics": {
+    "viewCount": "18000",
+    "likeCount": "1200",
+    "commentCount": "310"
+   }
+  }
+ ]
+}

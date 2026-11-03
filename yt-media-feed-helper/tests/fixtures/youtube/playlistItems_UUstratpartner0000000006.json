@@ -1,0 +1,23 @@
+{
+ "kind": "youtube#playlistItemListResponse",
+ "pageInfo": {
+  "totalResults": 1
+ },
+ "items": [
+  {
+   "kind": "youtube#playlistItem",
+   "snippet": {
+    "publishedAt": "2026-10-29T14:00:00Z",
+    "title": "EU5 Example Expansion — Early Access Preview (sponsored by Paradox)",
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "prtEU5prev1"
+    }
+   },
+   "contentDetails": {
+    "videoId": "prtEU5prev1",
+    "videoPublishedAt": "2026-10-29T14:00:00Z"
+   }
+  }
+ ]
+}

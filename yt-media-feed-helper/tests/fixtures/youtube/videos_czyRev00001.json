@@ -1,0 +1,27 @@
+{
+ "kind": "youtube#videoListResponse",
+ "items": [
+  {
+   "kind": "youtube#video",
+   "id": "czyRev00001",
+   "snippet": {
+    "publishedAt": "2026-10-15T09:00:00Z",
+    "channelId": "UCczytelniarecenzji00004",
+    "title": "Recenzja: najnowsza powieść Sandersona — czy warto?",
+    "description": "Moja recenzja najnowszej książki Brandona Sandersona.",
+    "channelTitle": "Czytelnia Recenzji",
+    "tags": [
+     "sanderson"
+    ]
+   },
+   "contentDetails": {
+    "duration": "PT16M"
+   },
+   "statistics": {
+    "viewCount": "8000",
+    "likeCount": "600",
+    "commentCount": "120"
+   }
+  }
+ ]
+}

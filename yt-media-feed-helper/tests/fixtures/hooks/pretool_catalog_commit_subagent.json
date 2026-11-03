@@ -1,0 +1,12 @@
+{
+ "session_id": "sess-test-1",
+ "transcript_path": "C:/Users/u/.claude/projects/x/t.jsonl",
+ "cwd": "WORKSPACE",
+ "permission_mode": "default",
+ "hook_event_name": "PreToolUse",
+ "tool_name": "mcp__plugin_yt-media-feed-helper_ytfeed__catalog_commit",
+ "tool_use_id": "toolu_04",
+ "agent_id": "a-7f3c",
+ "agent_type": "yt-media-feed-helper:channel-categorizer",
+ "tool_input": {"decisions": [{"proposal_id": "UCx@2026-11-02T12:00Z", "action": "accept"}]}
+}

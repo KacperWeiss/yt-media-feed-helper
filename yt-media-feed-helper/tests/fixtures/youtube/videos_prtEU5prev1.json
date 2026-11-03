@@ -1,0 +1,28 @@
+{
+ "kind": "youtube#videoListResponse",
+ "items": [
+  {
+   "kind": "youtube#video",
+   "id": "prtEU5prev1",
+   "snippet": {
+    "publishedAt": "2026-10-29T14:00:00Z",
+    "channelId": "UCstratpartner0000000006",
+    "title": "EU5 Example Expansion — Early Access Preview (sponsored by Paradox)",
+    "description": "Paradox gave me early access to Example Expansion. Here is my preview of the new Commonwealth content.\n0:00 Intro\n4:00 New content",
+    "channelTitle": "Strategy Partner",
+    "tags": [
+     "eu5",
+     "preview"
+    ]
+   },
+   "contentDetails": {
+    "duration": "PT20M"
+   },
+   "statistics": {
+    "viewCount": "76000",
+    "likeCount": "3900",
+    "commentCount": "0"
+   }
+  }
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "kind": "youtube#channelListResponse",
+ "items": [
+  {
+   "kind": "youtube#channel",
+   "id": "UCczytelniarecenzji00004",
+   "snippet": {
+    "title": "Czytelnia Recenzji",
+    "description": "Recenzje książek fantasy i science fiction. Rozmawiamy o tym, co warto przeczytać.",
+    "customUrl": "@czytelnia",
+    "publishedAt": "2012-03-01T10:00:00Z",
+    "country": "PL",
+    "defaultLanguage": "pl"
+   },
+   "brandingSettings": {
+    "channel": {
+     "title": "Czytelnia Recenzji",
+     "keywords": "recenzje fantasy"
+    }
+   },
+   "topicDetails": {
+    "topicCategories": [
+     "https://en.wikipedia.org/wiki/Book"
+    ]
+   },
+   "statistics": {
+    "videoCount": "150",
+    "viewCount": "1000000",
+    "subscriberCount": "12000",
+    "hiddenSubscriberCount": false
+   },
+   "contentDetails": {
+    "relatedPlaylists": {
+     "uploads": "UUczytelniarecenzji00004"
+    }
+   }
+  }
+ ]
+}

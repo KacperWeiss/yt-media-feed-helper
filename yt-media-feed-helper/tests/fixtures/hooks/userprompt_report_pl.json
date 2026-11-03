@@ -1,0 +1,8 @@
+{
+ "session_id": "sess-test-1",
+ "transcript_path": "C:/Users/u/.claude/projects/x/t.jsonl",
+ "cwd": "WORKSPACE",
+ "permission_mode": "default",
+ "hook_event_name": "UserPromptSubmit",
+ "prompt": "Podsumuj odbiór przez polskich fanów EU5 najnowszej zmiany eventów powiązanych z utworzeniem Rzeczypospolitej Obojga Narodów."
+}

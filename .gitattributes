@@ -1,0 +1,4 @@
+# Normalize line endings in the repository (LF); Git converts on checkout per platform settings.
+* text=auto eol=lf
+*.png binary
+*.whl binary

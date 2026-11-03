@@ -1,0 +1,24 @@
+{
+ "kind": "youtube#videoListResponse",
+ "items": [
+  {
+   "kind": "youtube#video",
+   "id": "pdxOld00001",
+   "snippet": {
+    "publishedAt": "2026-09-01T10:00:00Z",
+    "channelId": "UCparadoxinteractive0001",
+    "title": "Europa Universalis V | Launch Trailer",
+    "description": "Old trailer",
+    "channelTitle": "Paradox Interactive"
+   },
+   "contentDetails": {
+    "duration": "PT3M"
+   },
+   "statistics": {
+    "viewCount": "1000000",
+    "likeCount": "50000",
+    "commentCount": "8000"
+   }
+  }
+ ]
+}

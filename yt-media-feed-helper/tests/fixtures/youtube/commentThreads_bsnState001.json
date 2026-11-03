@@ -1,0 +1,55 @@
+{
+ "kind": "youtube#commentThreadListResponse",
+ "items": [
+  {
+   "kind": "youtube#commentThread",
+   "id": "UgvEN401",
+   "snippet": {
+    "channelId": "UCbrandonsanderson000003",
+    "videoId": "bsnState001",
+    "topLevelComment": {
+     "id": "UgvEN401",
+     "snippet": {
+      "videoId": "bsnState001",
+      "authorDisplayName": "@reader1",
+      "authorChannelId": {
+       "value": "UCfanen0000000000000401"
+      },
+      "textDisplay": "Can't wait for the next Stormlight book!",
+      "textOriginal": "Can't wait for the next Stormlight book!",
+      "likeCount": 700,
+      "publishedAt": "2026-10-20T17:00:00Z",
+      "updatedAt": "2026-10-20T17:00:00Z"
+     }
+    },
+    "totalReplyCount": 0,
+    "canReply": true
+   }
+  },
+  {
+   "kind": "youtube#commentThread",
+   "id": "UgvOWN02",
+   "snippet": {
+    "channelId": "UCbrandonsanderson000003",
+    "videoId": "bsnState001",
+    "topLevelComment": {
+     "id": "UgvOWN02",
+     "snippet": {
+      "videoId": "bsnState001",
+      "authorDisplayName": "@brandonsanderson",
+      "authorChannelId": {
+       "value": "UCbrandonsanderson000003"
+      },
+      "textDisplay": "Quick clarification: the novella is a separate release from the main series.",
+      "textOriginal": "Quick clarification: the novella is a separate release from the main series.",
+      "likeCount": 2200,
+      "publishedAt": "2026-10-21T10:00:00Z",
+      "updatedAt": "2026-10-21T10:00:00Z"
+     }
+    },
+    "totalReplyCount": 0,
+    "canReply": true
+   }
+  }
+ ]
+}

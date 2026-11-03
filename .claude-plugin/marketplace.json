@@ -1,0 +1,17 @@
+{
+  "name": "yt-media-feed-helper-marketplace",
+  "owner": {
+    "name": "Kacper Weiss"
+  },
+  "metadata": {
+    "description": "Marketplace with the yt-media-feed-helper plugin (read-only YouTube + Steam feed with a channel catalog and reports)",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "yt-media-feed-helper",
+      "source": "./yt-media-feed-helper",
+      "description": "Read-only YouTube + Steam: a channel catalog with multi-dimensional categories and reports with cited sources"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+ "kind": "youtube#channelListResponse",
+ "items": [
+  {
+   "kind": "youtube#channel",
+   "id": "UCpolskistrateg000000002",
+   "snippet": {
+    "title": "Polski Strateg",
+    "description": "Kanał o grach strategicznych po polsku: Europa Universalis, Hearts of Iron, poradniki i historia. Nowe filmy co tydzień!",
+    "customUrl": "@polskistrateg",
+    "publishedAt": "2012-03-01T10:00:00Z",
+    "country": "PL",
+    "defaultLanguage": "pl"
+   },
+   "brandingSettings": {
+    "channel": {
+     "title": "Polski Strateg",
+     "keywords": "eu5 strategia poradnik"
+    }
+   },
+   "topicDetails": {
+    "topicCategories": [
+     "https://en.wikipedia.org/wiki/Video_game_culture",
+     "https://en.wikipedia.org/wiki/Strategy_video_game"
+    ]
+   },
+   "statistics": {
+    "videoCount": "410",
+    "viewCount": "1000000",
+    "subscriberCount": "48000",
+    "hiddenSubscriberCount": false
+   },
+   "contentDetails": {
+    "relatedPlaylists": {
+     "uploads": "UUpolskistrateg000000002"
+    }
+   }
+  }
+ ]
+}

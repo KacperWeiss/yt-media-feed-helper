@@ -1,0 +1,28 @@
+{
+ "kind": "youtube#videoListResponse",
+ "items": [
+  {
+   "kind": "youtube#video",
+   "id": "pdxEU5dlc01",
+   "snippet": {
+    "publishedAt": "2026-10-25T17:00:00Z",
+    "channelId": "UCparadoxinteractive0001",
+    "title": "Europa Universalis V: Example Expansion — Announcement Trailer",
+    "description": "Announcing Example Expansion, the first major expansion for Europa Universalis V. Coming soon!",
+    "channelTitle": "Paradox Interactive",
+    "tags": [
+     "eu5",
+     "dlc"
+    ]
+   },
+   "contentDetails": {
+    "duration": "PT2M10S"
+   },
+   "statistics": {
+    "viewCount": "410000",
+    "likeCount": "21000",
+    "commentCount": "3900"
+   }
+  }
+ ]
+}

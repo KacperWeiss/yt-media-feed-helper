@@ -1,0 +1,69 @@
+# yt-media-feed-helper — configuration (editable). Defaults mirror the built-in server defaults.
+# Format: block YAML only (no {..} flow maps in the guard/parallelism/search/session_start sections —
+# hooks read them with a simple stdlib parser).
+schema_version: 1
+
+quota:
+  timezone: America/Los_Angeles
+  buckets:
+    default:
+      unit: units
+      daily_limit: 10000
+      reserve: 500
+      warn_at: 0.8
+    search:
+      unit: calls
+      daily_limit: 100
+      enabled: false
+  costs:
+    channels.list: 1
+    playlistItems.list: 1
+    videos.list: 1
+    commentThreads.list: 1
+    subscriptions.list: 1
+    search.list: 100
+
+reports:
+  language: auto              # auto = the language of the user's question (or an ISO 639-1 code, e.g. en, pl)
+  translate_quotes_to: auto   # quotes stay in the original language; a translation is added when it differs
+  budget_units: 2000
+  budget_ttl_minutes: 120     # an abandoned report budget expires after this time (Q-02)
+  default_window_days: 14
+  window_days_by_content:
+    Gaming: 14
+    Books: 30
+    Movies: 30
+    TV series: 30
+    Anime: 30
+    Politics: 30
+    History: 30
+    Science: 30
+  max_channels_per_report: 40
+  videos_per_channel: 5
+  comments_per_video: 100
+  include_shorts: false
+  shorts_max_duration_s: 60    # Shorts up to 3 min exist since 10.2024, but 180 s would drop 1–3 min trailers; longer Shorts are caught by #short/#shorts (title, description, tags)
+
+parallelism:
+  categorizer_wave_size: 5
+  scout_max_parallel: 5
+  max_active_subagents: 6      # 5 scouts + steam-checker
+  enforce_with_hook: true
+
+cache:
+  ttl_days_max: 30
+
+search:
+  require_confirmation: false
+
+guard:
+  scope: workspace_only     # 'everywhere' tightens write rules; bypass/auto modes are ALWAYS denied (cannot be disabled in this file)
+
+session_start:
+  enabled: true
+
+steam:
+  min_interval_s: 1.0
+
+catalog:
+  stale_taxonomy_versions: 3

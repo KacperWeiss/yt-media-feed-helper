@@ -1,0 +1,31 @@
+{
+ "kind": "youtube#searchListResponse",
+ "items": [
+  {
+   "id": {
+    "kind": "youtube#channel",
+    "channelId": "UCbrandonsanderson000003"
+   },
+   "snippet": {
+    "publishedAt": "2012-03-01T10:00:00Z",
+    "channelId": "UCbrandonsanderson000003",
+    "title": "Brandon Sanderson",
+    "channelTitle": "Brandon Sanderson",
+    "description": "Official channel"
+   }
+  },
+  {
+   "id": {
+    "kind": "youtube#channel",
+    "channelId": "UCsandersonfanclub000009"
+   },
+   "snippet": {
+    "publishedAt": "2018-01-01T10:00:00Z",
+    "channelId": "UCsandersonfanclub000009",
+    "title": "Sanderson Fan Club",
+    "channelTitle": "Sanderson Fan Club",
+    "description": "Fan channel"
+   }
+  }
+ ]
+}

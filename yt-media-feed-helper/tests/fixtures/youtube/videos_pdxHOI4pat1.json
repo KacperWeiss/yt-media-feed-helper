@@ -1,0 +1,27 @@
+{
+ "kind": "youtube#videoListResponse",
+ "items": [
+  {
+   "kind": "youtube#video",
+   "id": "pdxHOI4pat1",
+   "snippet": {
+    "publishedAt": "2026-10-30T12:00:00Z",
+    "channelId": "UCparadoxinteractive0001",
+    "title": "Hearts of Iron IV | Patch 1.17 Overview",
+    "description": "Overview of patch 1.17.\n0:00 Intro\n1:15 Changes",
+    "channelTitle": "Paradox Interactive",
+    "tags": [
+     "hoi4"
+    ]
+   },
+   "contentDetails": {
+    "duration": "PT8M5S"
+   },
+   "statistics": {
+    "viewCount": "95000",
+    "likeCount": "4000",
+    "commentCount": "600"
+   }
+  }
+ ]
+}

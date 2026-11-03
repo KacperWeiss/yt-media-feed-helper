@@ -1,0 +1,39 @@
+{
+ "kind": "youtube#channelListResponse",
+ "items": [
+  {
+   "kind": "youtube#channel",
+   "id": "UCnewchannelbeta00000008",
+   "snippet": {
+    "title": "Beta Anime PL",
+    "description": "Anime po polsku — recenzje sezonów.",
+    "customUrl": "@betaanime",
+    "publishedAt": "2012-03-01T10:00:00Z",
+    "country": "PL",
+    "defaultLanguage": "pl"
+   },
+   "brandingSettings": {
+    "channel": {
+     "title": "Beta Anime PL",
+     "keywords": "anime"
+    }
+   },
+   "topicDetails": {
+    "topicCategories": [
+     "https://en.wikipedia.org/wiki/Anime"
+    ]
+   },
+   "statistics": {
+    "videoCount": "90",
+    "viewCount": "1000000",
+    "subscriberCount": "3000",
+    "hiddenSubscriberCount": false
+   },
+   "contentDetails": {
+    "relatedPlaylists": {
+     "uploads": "UUnewchannelbeta00000008"
+    }
+   }
+  }
+ ]
+}

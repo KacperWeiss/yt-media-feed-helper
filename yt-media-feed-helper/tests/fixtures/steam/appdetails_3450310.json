@@ -1,0 +1,30 @@
+{
+ "3450310": {
+  "success": true,
+  "data": {
+   "type": "game",
+   "name": "Europa Universalis V",
+   "steam_appid": 3450310,
+   "release_date": {
+    "coming_soon": false,
+    "date": "4 Nov, 2025"
+   },
+   "dlc": [
+    3999990,
+    3999980
+   ],
+   "genres": [
+    {
+     "id": "2",
+     "description": "Strategy"
+    }
+   ],
+   "categories": [
+    {
+     "id": 2,
+     "description": "Single-player"
+    }
+   ]
+  }
+ }
+}

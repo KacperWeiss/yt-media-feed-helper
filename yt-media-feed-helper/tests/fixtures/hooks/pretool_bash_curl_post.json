@@ -1,0 +1,10 @@
+{
+ "session_id": "sess-test-1",
+ "transcript_path": "C:/Users/u/.claude/projects/x/t.jsonl",
+ "cwd": "WORKSPACE",
+ "permission_mode": "default",
+ "hook_event_name": "PreToolUse",
+ "tool_name": "Bash",
+ "tool_use_id": "toolu_01",
+ "tool_input": {"command": "curl -X POST -H \"Authorization: Bearer ya29.a0AfH6SMBxyz\" https://www.googleapis.com/youtube/v3/subscriptions?part=snippet -d '{\"snippet\":{}}'"}
+}

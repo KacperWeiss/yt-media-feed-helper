@@ -1,0 +1,23 @@
+{
+ "kind": "youtube#playlistItemListResponse",
+ "pageInfo": {
+  "totalResults": 1
+ },
+ "items": [
+  {
+   "kind": "youtube#playlistItem",
+   "snippet": {
+    "publishedAt": "2026-10-15T09:00:00Z",
+    "title": "Recenzja: najnowsza powieść Sandersona — czy warto?",
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "czyRev00001"
+    }
+   },
+   "contentDetails": {
+    "videoId": "czyRev00001",
+    "videoPublishedAt": "2026-10-15T09:00:00Z"
+   }
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "kind": "youtube#playlistItemListResponse",
+ "pageInfo": {
+  "totalResults": 2
+ },
+ "items": [
+  {
+   "kind": "youtube#playlistItem",
+   "snippet": {
+    "publishedAt": "2026-10-30T18:00:00Z",
+    "title": "EU5: Nowe eventy Rzeczypospolitej Obojga Narodów — czy unia lubelska jest teraz za łatwa?",
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "plsRON00001"
+    }
+   },
+   "contentDetails": {
+    "videoId": "plsRON00001",
+    "videoPublishedAt": "2026-10-30T18:00:00Z"
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "snippet": {
+    "publishedAt": "2026-10-27T18:00:00Z",
+    "title": "Czy warto czekać na pierwszy dodatek do EU5? Moje przemyślenia",
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "plsDLC00001"
+    }
+   },
+   "contentDetails": {
+    "videoId": "plsDLC00001",
+    "videoPublishedAt": "2026-10-27T18:00:00Z"
+   }
+  }
+ ]
+}

@@ -1,0 +1,60 @@
+{
+ "appnews": {
+  "appid": 3450310,
+  "newsitems": [
+   {
+    "gid": "5100000000000000001",
+    "title": "Patch 1.2 'Lublin' — Commonwealth event rework",
+    "url": "https://store.steampowered.com/news/app/3450310/view/5100000000000000001",
+    "is_external_url": false,
+    "author": "Paradox",
+    "contents": "[h1]Patch 1.2[/h1][list][*]Reworked the Union of Lublin event chain[*]Polish-Lithuanian Commonwealth can now form earlier[/list][url=https://forum.example/patch]Full notes[/url]",
+    "feedlabel": "Community Announcements",
+    "date": 1793109600,
+    "feedname": "steam_community_announcements",
+    "feed_type": 1,
+    "appid": 3450310
+   },
+   {
+    "gid": "5100000000000000002",
+    "title": "Example Expansion announced",
+    "url": "https://store.steampowered.com/news/app/3450310/view/5100000000000000002",
+    "is_external_url": false,
+    "author": "Paradox",
+    "contents": "We are happy to announce [b]Example Expansion[/b], coming Q1 2027.",
+    "feedlabel": "Community Announcements",
+    "date": 1792947600,
+    "feedname": "steam_community_announcements",
+    "feed_type": 1,
+    "appid": 3450310
+   },
+   {
+    "gid": "5100000000000000003",
+    "title": "EU5's Commonwealth rework reviewed",
+    "url": "https://www.pcgamer.example/eu5-commonwealth",
+    "is_external_url": true,
+    "author": "Press",
+    "contents": "Press coverage of the Commonwealth rework.",
+    "feedlabel": "PC Gamer",
+    "date": 1793268000,
+    "feedname": "pcgamer",
+    "feed_type": 0,
+    "appid": 3450310
+   },
+   {
+    "gid": "5100000000000000004",
+    "title": "Launch day!",
+    "url": "https://store.steampowered.com/news/app/3450310/view/5100000000000000004",
+    "is_external_url": false,
+    "author": "Paradox",
+    "contents": "EU5 is out now.",
+    "feedlabel": "Community Announcements",
+    "date": 1762250400,
+    "feedname": "steam_community_announcements",
+    "feed_type": 1,
+    "appid": 3450310
+   }
+  ],
+  "count": 4
+ }
+}

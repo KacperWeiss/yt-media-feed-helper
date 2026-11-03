@@ -1,0 +1,29 @@
+{
+ "kind": "youtube#videoListResponse",
+ "items": [
+  {
+   "kind": "youtube#video",
+   "id": "pdxEU5dd001",
+   "snippet": {
+    "publishedAt": "2026-10-28T15:00:00Z",
+    "channelId": "UCparadoxinteractive0001",
+    "title": "Europa Universalis V | Dev Diary: Polish-Lithuanian Commonwealth event rework",
+    "description": "In this dev diary we present the reworked event chain for forming the Polish-Lithuanian Commonwealth (Union of Lublin).\n\n00:00 Intro\n02:05 Union of Lublin events\n06:50 Commonwealth estates\n11:30 Balance changes\n\nPatch notes: https://forum.paradoxplaza.com/forum/threads/eu5-patch.123/?utm_source=yt",
+    "channelTitle": "Paradox Interactive",
+    "tags": [
+     "eu5",
+     "europa universalis",
+     "dev diary"
+    ]
+   },
+   "contentDetails": {
+    "duration": "PT14M20S"
+   },
+   "statistics": {
+    "viewCount": "182000",
+    "likeCount": "9100",
+    "commentCount": "2450"
+   }
+  }
+ ]
+}

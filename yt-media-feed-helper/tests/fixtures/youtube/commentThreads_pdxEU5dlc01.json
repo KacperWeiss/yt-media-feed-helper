@@ -1,0 +1,80 @@
+{
+ "kind": "youtube#commentThreadListResponse",
+ "items": [
+  {
+   "kind": "youtube#commentThread",
+   "id": "UgzEN201",
+   "snippet": {
+    "channelId": "UCparadoxinteractive0001",
+    "videoId": "pdxEU5dlc01",
+    "topLevelComment": {
+     "id": "UgzEN201",
+     "snippet": {
+      "videoId": "pdxEU5dlc01",
+      "authorDisplayName": "@dlcfan",
+      "authorChannelId": {
+       "value": "UCfanen0000000000000201"
+      },
+      "textDisplay": "Day one buy for me, the new content looks amazing.",
+      "textOriginal": "Day one buy for me, the new content looks amazing.",
+      "likeCount": 900,
+      "publishedAt": "2026-10-25T18:00:00Z",
+      "updatedAt": "2026-10-25T18:00:00Z"
+     }
+    },
+    "totalReplyCount": 0,
+    "canReply": true
+   }
+  },
+  {
+   "kind": "youtube#commentThread",
+   "id": "UgzEN202",
+   "snippet": {
+    "channelId": "UCparadoxinteractive0001",
+    "videoId": "pdxEU5dlc01",
+    "topLevelComment": {
+     "id": "UgzEN202",
+     "snippet": {
+      "videoId": "pdxEU5dlc01",
+      "authorDisplayName": "@skeptic",
+      "authorChannelId": {
+       "value": "UCfanen0000000000000202"
+      },
+      "textDisplay": "Fix the base game first before selling another expansion.",
+      "textOriginal": "Fix the base game first before selling another expansion.",
+      "likeCount": 1500,
+      "publishedAt": "2026-10-25T19:00:00Z",
+      "updatedAt": "2026-10-25T19:00:00Z"
+     }
+    },
+    "totalReplyCount": 0,
+    "canReply": true
+   }
+  },
+  {
+   "kind": "youtube#commentThread",
+   "id": "UgzPL203",
+   "snippet": {
+    "channelId": "UCparadoxinteractive0001",
+    "videoId": "pdxEU5dlc01",
+    "topLevelComment": {
+     "id": "UgzPL203",
+     "snippet": {
+      "videoId": "pdxEU5dlc01",
+      "authorDisplayName": "@polak",
+      "authorChannelId": {
+       "value": "UCfanpl0000000000000203"
+      },
+      "textDisplay": "Cena dodatku będzie kluczowa, za 20 euro to za dużo.",
+      "textOriginal": "Cena dodatku będzie kluczowa, za 20 euro to za dużo.",
+      "likeCount": 300,
+      "publishedAt": "2026-10-26T10:00:00Z",
+      "updatedAt": "2026-10-26T10:00:00Z"
+     }
+    },
+    "totalReplyCount": 0,
+    "canReply": true
+   }
+  }
+ ]
+}

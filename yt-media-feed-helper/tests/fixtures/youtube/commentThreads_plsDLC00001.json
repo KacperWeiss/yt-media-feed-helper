@@ -1,0 +1,30 @@
+{
+ "kind": "youtube#commentThreadListResponse",
+ "items": [
+  {
+   "kind": "youtube#commentThread",
+   "id": "UgwPL301",
+   "snippet": {
+    "channelId": "UCpolskistrateg000000002",
+    "videoId": "plsDLC00001",
+    "topLevelComment": {
+     "id": "UgwPL301",
+     "snippet": {
+      "videoId": "plsDLC00001",
+      "authorDisplayName": "@kuba",
+      "authorChannelId": {
+       "value": "UCfanpl0000000000000301"
+      },
+      "textDisplay": "Poczekam na recenzje, poprzednie dodatki Paradoxu były różne.",
+      "textOriginal": "Poczekam na recenzje, poprzednie dodatki Paradoxu były różne.",
+      "likeCount": 80,
+      "publishedAt": "2026-10-27T19:00:00Z",
+      "updatedAt": "2026-10-27T19:00:00Z"
+     }
+    },
+    "totalReplyCount": 0,
+    "canReply": true
+   }
+  }
+ ]
+}

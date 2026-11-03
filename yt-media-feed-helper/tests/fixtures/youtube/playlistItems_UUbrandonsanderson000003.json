@@ -1,0 +1,38 @@
+{
+ "kind": "youtube#playlistItemListResponse",
+ "pageInfo": {
+  "totalResults": 2
+ },
+ "items": [
+  {
+   "kind": "youtube#playlistItem",
+   "snippet": {
+    "publishedAt": "2026-10-20T16:00:00Z",
+    "title": "State of the Sanderson Update — Writing Progress",
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "bsnState001"
+    }
+   },
+   "contentDetails": {
+    "videoId": "bsnState001",
+    "videoPublishedAt": "2026-10-20T16:00:00Z"
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "snippet": {
+    "publishedAt": "2026-10-05T16:00:00Z",
+    "title": "Livestream recap: Q&A about Dragonsteel",
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "bsnUpdate01"
+    }
+   },
+   "contentDetails": {
+    "videoId": "bsnUpdate01",
+    "videoPublishedAt": "2026-10-05T16:00:00Z"
+   }
+  }
+ ]
+}

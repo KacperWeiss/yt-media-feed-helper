@@ -1,0 +1,28 @@
+{
+ "kind": "youtube#videoListResponse",
+ "items": [
+  {
+   "kind": "youtube#video",
+   "id": "plsRON00001",
+   "snippet": {
+    "publishedAt": "2026-10-30T18:00:00Z",
+    "channelId": "UCpolskistrateg000000002",
+    "title": "EU5: Nowe eventy Rzeczypospolitej Obojga Narodów — czy unia lubelska jest teraz za łatwa?",
+    "description": "Omawiam zmianę eventów związanych z utworzeniem RON po ostatnim patchu.\n\n0:00 Wstęp\n1:40 Co się zmieniło\n7:15 Moja ocena\n\nDzięki za oglądanie!",
+    "channelTitle": "Polski Strateg",
+    "tags": [
+     "eu5",
+     "ron"
+    ]
+   },
+   "contentDetails": {
+    "duration": "PT18M40S"
+   },
+   "statistics": {
+    "viewCount": "31000",
+    "likeCount": "2600",
+    "commentCount": "640"
+   }
+  }
+ ]
+}

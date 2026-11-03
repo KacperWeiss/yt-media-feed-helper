@@ -1,0 +1,24 @@
+{
+ "kind": "youtube#videoListResponse",
+ "items": [
+  {
+   "kind": "youtube#video",
+   "id": "bsnUpdate01",
+   "snippet": {
+    "publishedAt": "2026-10-05T16:00:00Z",
+    "channelId": "UCbrandonsanderson000003",
+    "title": "Livestream recap: Q&A about Dragonsteel",
+    "description": "Q&A recap.",
+    "channelTitle": "Brandon Sanderson"
+   },
+   "contentDetails": {
+    "duration": "PT40M"
+   },
+   "statistics": {
+    "viewCount": "90000",
+    "likeCount": "5000",
+    "commentCount": "900"
+   }
+  }
+ ]
+}

@@ -1,0 +1,69 @@
+{
+  "name": "yt-media-feed-helper",
+  "displayName": "YT Media Feed Helper",
+  "version": "0.1.0",
+  "description": "Read-only tracking of YouTube creators and Steam games: a channel catalog with multi-dimensional categories, reports with cited sources, diagnostic hooks and mutation guards.",
+  "author": {
+    "name": "Kacper Weiss"
+  },
+  "license": "MIT",
+  "keywords": [
+    "youtube",
+    "steam",
+    "mcp",
+    "reports",
+    "read-only"
+  ],
+  "userConfig": {
+    "workspace_dir": {
+      "type": "directory",
+      "title": "Workspace",
+      "description": "Directory for catalog/, reports/, logs/. Empty = the project directory.",
+      "required": false
+    },
+    "google_client_id": {
+      "type": "string",
+      "title": "Google OAuth client ID",
+      "description": "Client ID of a Desktop app OAuth client. The YTFEED_GOOGLE_CLIENT_ID environment variable takes precedence.",
+      "required": false
+    },
+    "google_client_secret": {
+      "type": "string",
+      "title": "Google OAuth client secret",
+      "description": "Client secret (stored in the system keychain). The YTFEED_GOOGLE_CLIENT_SECRET environment variable takes precedence.",
+      "sensitive": true,
+      "required": false
+    },
+    "google_client_secret_path": {
+      "type": "file",
+      "title": "Google OAuth client secret — JSON file (alternative)",
+      "description": "Used only when client ID + secret are not set. Keep it outside the repository. The YTFEED_GOOGLE_CLIENT_SECRET_FILE variable takes precedence.",
+      "required": false
+    },
+    "steam_api_key": {
+      "type": "string",
+      "title": "Steam Web API key (optional)",
+      "description": "Reserved — not required in v1 (public endpoints are used). The YTFEED_STEAM_API_KEY variable takes precedence.",
+      "sensitive": true,
+      "required": false
+    },
+    "mock_mode": {
+      "type": "boolean",
+      "title": "Mock mode",
+      "description": "Use fixtures instead of the real APIs (demo/tests, no Google Cloud needed).",
+      "default": false
+    },
+    "report_budget_units": {
+      "type": "number",
+      "title": "Report quota budget (units)",
+      "description": "Permanently raised default report budget (empty = 2000). The only source of a higher budget without a permission prompt; catalog/config.yaml can only lower it.",
+      "required": false
+    },
+    "strict_deps": {
+      "type": "boolean",
+      "title": "Install dependencies with hashes",
+      "description": "true = launch.py install uses pip --require-hashes with requirements.hashes.txt (Windows x64 / Python 3.15 only).",
+      "default": false
+    }
+  }
+}

@@ -1,0 +1,54 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OAuth secrets / API keys (never in the repo)
+token.json
+*.token
+client_secret*.json
+credentials*.json
+.env
+
+# Hook diagnostic logs (local, may contain traces of queries)
+logs/
+*.jsonl.gz
+
+# Cache / local state
+*.sqlite
+*.sqlite-journal
+quota.json
+subagents.json
+
+# The catalog (catalog/) and reports (reports/) MAY be in git — deliberately NOT ignored.
+.ruff_cache/
+.coverage.*
+.mypy_cache/
+
+# Secrets — also temporary token write files
+token.tmp
+*.tmp
+
+# Downloaded/built package artifacts (requirements.hashes.txt, pip download / build)
+wheels/
+*.whl
+*.tar.gz
+build/
+dist/
+*.egg-info/
+
+# Hook/server state, in case the data dir ends up inside the project
+sessions/
+catalog_integrity.json
+diag_pre_times.json
+taxonomy_terms.json
+
+# Local Claude Code settings (may contain paths and permissions)
+.claude/settings.local.json
+
+# Internal (Polish) design/review history — kept locally, not published
+docs-internal/

@@ -1,0 +1,42 @@
+{
+ "kind": "youtube#subscriptionListResponse",
+ "pageInfo": {
+  "totalResults": 7,
+  "resultsPerPage": 50
+ },
+ "items": [
+  {
+   "kind": "youtube#subscription",
+   "snippet": {
+    "title": "Strategy Partner",
+    "description": "",
+    "resourceId": {
+     "kind": "youtube#channel",
+     "channelId": "UCstratpartner0000000006"
+    }
+   }
+  },
+  {
+   "kind": "youtube#subscription",
+   "snippet": {
+    "title": "Alpha History",
+    "description": "",
+    "resourceId": {
+     "kind": "youtube#channel",
+     "channelId": "UCnewchannelalpha0000007"
+    }
+   }
+  },
+  {
+   "kind": "youtube#subscription",
+   "snippet": {
+    "title": "Beta Anime PL",
+    "description": "",
+    "resourceId": {
+     "kind": "youtube#channel",
+     "channelId": "UCnewchannelbeta00000008"
+    }
+   }
+  }
+ ]
+}

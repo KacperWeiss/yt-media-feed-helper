@@ -1,0 +1,18 @@
+{
+ "3999980": {
+  "success": true,
+  "data": {
+   "type": "dlc",
+   "name": "Europa Universalis V: Example Music Pack",
+   "steam_appid": 3999980,
+   "fullgame": {
+    "appid": "3450310",
+    "name": "Europa Universalis V"
+   },
+   "release_date": {
+    "coming_soon": false,
+    "date": "4 Nov, 2025"
+   }
+  }
+ }
+}

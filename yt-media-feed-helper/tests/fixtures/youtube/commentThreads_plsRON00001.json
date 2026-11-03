@@ -1,0 +1,130 @@
+{
+ "kind": "youtube#commentThreadListResponse",
+ "items": [
+  {
+   "kind": "youtube#commentThread",
+   "id": "UgyPL101",
+   "snippet": {
+    "channelId": "UCpolskistrateg000000002",
+    "videoId": "plsRON00001",
+    "topLevelComment": {
+     "id": "UgyPL101",
+     "snippet": {
+      "videoId": "plsRON00001",
+      "authorDisplayName": "@marek",
+      "authorChannelId": {
+       "value": "UCfanpl0000000000000101"
+      },
+      "textDisplay": "Zgadzam się, Rzplita powstaje za szybko, a eventy unii nie dają wyboru.",
+      "textOriginal": "Zgadzam się, Rzplita powstaje za szybko, a eventy unii nie dają wyboru.",
+      "likeCount": 340,
+      "publishedAt": "2026-10-30T19:00:00Z",
+      "updatedAt": "2026-10-30T19:00:00Z"
+     }
+    },
+    "totalReplyCount": 6,
+    "canReply": true
+   }
+  },
+  {
+   "kind": "youtube#commentThread",
+   "id": "UgyPL102",
+   "snippet": {
+    "channelId": "UCpolskistrateg000000002",
+    "videoId": "plsRON00001",
+    "topLevelComment": {
+     "id": "UgyPL102",
+     "snippet": {
+      "videoId": "plsRON00001",
+      "authorDisplayName": "@ania",
+      "authorChannelId": {
+       "value": "UCfanpl0000000000000102"
+      },
+      "textDisplay": "Dla mnie zmiana jest super, w końcu RON jest grywalna od początku.",
+      "textOriginal": "Dla mnie zmiana jest super, w końcu RON jest grywalna od początku.",
+      "likeCount": 280,
+      "publishedAt": "2026-10-30T20:00:00Z",
+      "updatedAt": "2026-10-30T20:00:00Z"
+     }
+    },
+    "totalReplyCount": 3,
+    "canReply": true
+   }
+  },
+  {
+   "kind": "youtube#commentThread",
+   "id": "UgyPL103",
+   "snippet": {
+    "channelId": "UCpolskistrateg000000002",
+    "videoId": "plsRON00001",
+    "topLevelComment": {
+     "id": "UgyPL103",
+     "snippet": {
+      "videoId": "plsRON00001",
+      "authorDisplayName": "@polskistrateg",
+      "authorChannelId": {
+       "value": "UCpolskistrateg000000002"
+      },
+      "textDisplay": "Dzięki za komentarze! W kolejnym odcinku sprawdzę balans po hotfixie.",
+      "textOriginal": "Dzięki za komentarze! W kolejnym odcinku sprawdzę balans po hotfixie.",
+      "likeCount": 150,
+      "publishedAt": "2026-10-30T21:00:00Z",
+      "updatedAt": "2026-10-30T21:00:00Z"
+     }
+    },
+    "totalReplyCount": 0,
+    "canReply": true
+   }
+  },
+  {
+   "kind": "youtube#commentThread",
+   "id": "UgyPL104",
+   "snippet": {
+    "channelId": "UCpolskistrateg000000002",
+    "videoId": "plsRON00001",
+    "topLevelComment": {
+     "id": "UgyPL104",
+     "snippet": {
+      "videoId": "plsRON00001",
+      "authorDisplayName": "@tomek",
+      "authorChannelId": {
+       "value": "UCfanpl0000000000000104"
+      },
+      "textDisplay": "Trochę lepiej, trochę gorzej — mixed. Unia lubelska fajna, ale Litwa za słaba.",
+      "textOriginal": "Trochę lepiej, trochę gorzej — mixed. Unia lubelska fajna, ale Litwa za słaba.",
+      "likeCount": 120,
+      "publishedAt": "2026-10-31T08:00:00Z",
+      "updatedAt": "2026-10-31T08:00:00Z"
+     }
+    },
+    "totalReplyCount": 0,
+    "canReply": true
+   }
+  },
+  {
+   "kind": "youtube#commentThread",
+   "id": "UgyEN105",
+   "snippet": {
+    "channelId": "UCpolskistrateg000000002",
+    "videoId": "plsRON00001",
+    "topLevelComment": {
+     "id": "UgyEN105",
+     "snippet": {
+      "videoId": "plsRON00001",
+      "authorDisplayName": "@foreignfan",
+      "authorChannelId": {
+       "value": "UCfanen0000000000000105"
+      },
+      "textDisplay": "Greetings from Lithuania, the new events are great.",
+      "textOriginal": "Greetings from Lithuania, the new events are great.",
+      "likeCount": 60,
+      "publishedAt": "2026-10-31T09:00:00Z",
+      "updatedAt": "2026-10-31T09:00:00Z"
+     }
+    },
+    "totalReplyCount": 0,
+    "canReply": true
+   }
+  }
+ ]
+}

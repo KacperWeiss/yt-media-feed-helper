@@ -1,0 +1,35 @@
+{
+ "total": 3,
+ "items": [
+  {
+   "type": "app",
+   "name": "Europa Universalis V",
+   "id": 3450310,
+   "tiny_image": "",
+   "metascore": "",
+   "platforms": {
+    "windows": true
+   }
+  },
+  {
+   "type": "app",
+   "name": "Europa Universalis IV",
+   "id": 236850,
+   "tiny_image": "",
+   "metascore": "87",
+   "platforms": {
+    "windows": true
+   }
+  },
+  {
+   "type": "app",
+   "name": "Europa Universalis V: Example Expansion",
+   "id": 3999990,
+   "tiny_image": "",
+   "metascore": "",
+   "platforms": {
+    "windows": true
+   }
+  }
+ ]
+}

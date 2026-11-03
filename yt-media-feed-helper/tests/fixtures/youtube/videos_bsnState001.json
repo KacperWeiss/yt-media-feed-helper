@@ -1,0 +1,28 @@
+{
+ "kind": "youtube#videoListResponse",
+ "items": [
+  {
+   "kind": "youtube#video",
+   "id": "bsnState001",
+   "snippet": {
+    "publishedAt": "2026-10-20T16:00:00Z",
+    "channelId": "UCbrandonsanderson000003",
+    "title": "State of the Sanderson Update — Writing Progress",
+    "description": "Brandon talks about writing progress on upcoming Cosmere books.\n00:00 Intro\n03:20 Stormlight progress\n09:45 Mistborn",
+    "channelTitle": "Brandon Sanderson",
+    "tags": [
+     "sanderson",
+     "cosmere"
+    ]
+   },
+   "contentDetails": {
+    "duration": "PT25M"
+   },
+   "statistics": {
+    "viewCount": "250000",
+    "likeCount": "18000",
+    "commentCount": "2100"
+   }
+  }
+ ]
+}

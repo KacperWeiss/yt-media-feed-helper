@@ -1,0 +1,24 @@
+{
+ "kind": "youtube#videoListResponse",
+ "items": [
+  {
+   "kind": "youtube#video",
+   "id": "pdxShort001",
+   "snippet": {
+    "publishedAt": "2026-11-01T10:00:00Z",
+    "channelId": "UCparadoxinteractive0001",
+    "title": "EU5 in 45 seconds #shorts",
+    "description": "Quick look #shorts",
+    "channelTitle": "Paradox Interactive"
+   },
+   "contentDetails": {
+    "duration": "PT45S"
+   },
+   "statistics": {
+    "viewCount": "300000",
+    "likeCount": "15000",
+    "commentCount": "300"
+   }
+  }
+ ]
+}

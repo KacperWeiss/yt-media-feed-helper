@@ -1,0 +1,83 @@
+{
+ "kind": "youtube#playlistItemListResponse",
+ "pageInfo": {
+  "totalResults": 5
+ },
+ "items": [
+  {
+   "kind": "youtube#playlistItem",
+   "snippet": {
+    "publishedAt": "2026-11-01T10:00:00Z",
+    "title": "EU5 in 45 seconds #shorts",
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "pdxShort001"
+    }
+   },
+   "contentDetails": {
+    "videoId": "pdxShort001",
+    "videoPublishedAt": "2026-11-01T10:00:00Z"
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "snippet": {
+    "publishedAt": "2026-10-30T12:00:00Z",
+    "title": "Hearts of Iron IV | Patch 1.17 Overview",
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "pdxHOI4pat1"
+    }
+   },
+   "contentDetails": {
+    "videoId": "pdxHOI4pat1",
+    "videoPublishedAt": "2026-10-30T12:00:00Z"
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "snippet": {
+    "publishedAt": "2026-10-28T15:00:00Z",
+    "title": "Europa Universalis V | Dev Diary: Polish-Lithuanian Commonwealth event rework",
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "pdxEU5dd001"
+    }
+   },
+   "contentDetails": {
+    "videoId": "pdxEU5dd001",
+    "videoPublishedAt": "2026-10-28T15:00:00Z"
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "snippet": {
+    "publishedAt": "2026-10-25T17:00:00Z",
+    "title": "Europa Universalis V: Example Expansion — Announcement Trailer",
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "pdxEU5dlc01"
+    }
+   },
+   "contentDetails": {
+    "videoId": "pdxEU5dlc01",
+    "videoPublishedAt": "2026-10-25T17:00:00Z"
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "snippet": {
+    "publishedAt": "2026-09-01T10:00:00Z",
+    "title": "Europa Universalis V | Launch Trailer",
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "pdxOld00001"
+    }
+   },
+   "contentDetails": {
+    "videoId": "pdxOld00001",
+    "videoPublishedAt": "2026-09-01T10:00:00Z"
+   }
+  }
+ ]
+}

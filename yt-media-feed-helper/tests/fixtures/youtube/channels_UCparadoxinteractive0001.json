@@ -1,0 +1,40 @@
+{
+ "kind": "youtube#channelListResponse",
+ "items": [
+  {
+   "kind": "youtube#channel",
+   "id": "UCparadoxinteractive0001",
+   "snippet": {
+    "title": "Paradox Interactive",
+    "description": "Official YouTube channel of Paradox Interactive, publisher of Europa Universalis, Hearts of Iron and Crusader Kings. https://www.paradoxinteractive.com",
+    "customUrl": "@paradoxinteractive",
+    "publishedAt": "2012-03-01T10:00:00Z",
+    "country": "SE",
+    "defaultLanguage": "en"
+   },
+   "brandingSettings": {
+    "channel": {
+     "title": "Paradox Interactive",
+     "keywords": "paradox \"europa universalis\" strategy"
+    }
+   },
+   "topicDetails": {
+    "topicCategories": [
+     "https://en.wikipedia.org/wiki/Video_game_culture",
+     "https://en.wikipedia.org/wiki/Strategy_video_game"
+    ]
+   },
+   "statistics": {
+    "videoCount": "2100",
+    "viewCount": "1000000",
+    "subscriberCount": "1200000",
+    "hiddenSubscriberCount": false
+   },
+   "contentDetails": {
+    "relatedPlaylists": {
+     "uploads": "UUparadoxinteractive0001"
+    }
+   }
+  }
+ ]
+}

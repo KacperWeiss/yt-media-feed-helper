@@ -1,0 +1,135 @@
+# yt-media-feed-helper — channel category taxonomy.
+# Editable by hand (taxonomy-edit skill + validate_catalog.py). Bump taxonomy_version after a change.
+# Note: writes via MCP (catalog_commit with new values) rewrite the file through PyYAML —
+# comments outside this header may be lost.
+schema_version: 1
+taxonomy_version: 1
+updated_at: '2026-11-02T00:00:00Z'
+
+dimensions:
+  channel_type:
+    label: Channel type
+    cardinality: multi
+    open: false
+    required: true
+    values:
+      - key: YouTube creator
+        description: Independent channel whose main activity is YouTube videos
+      - key: Book author
+        description: Writer publishing their own books
+      - key: Book reviewer
+      - key: Game publisher
+      - key: Game developer
+      - key: Game reviewer
+      - key: Film producer
+      - key: Media outlet
+        description: Portal, magazine, newsroom
+      - key: Streamer
+
+  content:
+    label: Content
+    cardinality: multi
+    open: false
+    required: true
+    values:
+      - key: Gaming
+      - key: Books
+      - key: Movies
+      - key: TV series
+      - key: Anime
+      - key: Politics
+      - key: History
+      - key: Science
+
+  communication:
+    label: Communication
+    cardinality: single
+    open: false
+    required: true
+    values:
+      - key: Official
+        description: Channel of the brand owner/author; its content = official announcements
+        official: true
+      - key: Community Manager
+        description: Brand employee/CM; official communication
+        official: true
+      - key: Media partner
+        description: Works with the brand (early access, sponsorship) — "semi-official" section
+        official: false
+        semi_official: true
+      - key: Unofficial
+        official: false
+      - key: Not applicable
+
+  specialization:
+    label: Specialization
+    cardinality: multi
+    open: true
+    required: false
+    values:
+      - key: Strategy
+      - key: Grand strategy
+        parent: Strategy
+      - key: Europa Universalis
+        parent: Grand strategy
+        synonyms: [EU, EU4, EU5, Europa Universalis V, Europa Universalis 5, Europa Universalis IV]
+        steam_appids: []
+      - key: Hearts of Iron
+        parent: Grand strategy
+        synonyms: [HoI4, HOI, Hearts of Iron IV]
+      - key: Gameplay
+      - key: Guides
+      - key: Lore
+      - key: Brandon Sanderson / Cosmere
+        synonyms: [Sanderson, Cosmere, Stormlight, Mistborn, Dragonsteel]
+
+  subscription:
+    label: Subscription
+    cardinality: single
+    open: false
+    required: true
+    agent_settable: [Subscriber, None]
+    values:
+      - key: Supporter
+        description: Membership/Patreon etc. — set manually only (the API does not expose it)
+      - key: Subscriber
+      - key: None
+
+  language_region:
+    label: Language / region
+    cardinality: multi
+    open: false
+    required: true
+    values:
+      - key: PL
+      - key: EN
+      - key: DE
+      - key: multi
+        description: Channel regularly publishing in several languages
+
+# Natural-language query aliases → (dimension, value). Used by catalog_query and agents.
+# Polish aliases are kept alongside English ones (multilingual queries).
+aliases:
+  strategy: {dimension: specialization, value: Strategy}
+  strategies: {dimension: specialization, value: Strategy}
+  strategia: {dimension: specialization, value: Strategy}
+  strategie: {dimension: specialization, value: Strategy}
+  games: {dimension: content, value: Gaming}
+  gry: {dimension: content, value: Gaming}
+  gaming: {dimension: content, value: Gaming}
+  books: {dimension: content, value: Books}
+  książki: {dimension: content, value: Books}
+  ksiazki: {dimension: content, value: Books}
+  official: {dimension: communication, value: Official}
+  oficjalne: {dimension: communication, value: Official}
+  eu5: {dimension: specialization, value: Europa Universalis}
+
+# TERM alias dictionary (expands match_terms in content search).
+# Key = canonical term, values = synonyms. Extend as needed.
+term_aliases:
+  Europa Universalis V: [Europa Universalis V, Europa Universalis 5, EU5]
+  Rzeczpospolita Obojga Narodów: [Rzeczpospolita Obojga Narodów, Rzeczpospolita, Rzeczypospolita, RON, Rzplita, PLC, Commonwealth, Polish-Lithuanian Commonwealth]
+
+rules:
+  confidence_auto_threshold: 0.0
+  low_confidence_flag: 0.6

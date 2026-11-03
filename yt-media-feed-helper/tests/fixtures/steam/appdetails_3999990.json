@@ -1,0 +1,18 @@
+{
+ "3999990": {
+  "success": true,
+  "data": {
+   "type": "dlc",
+   "name": "Europa Universalis V: Example Expansion",
+   "steam_appid": 3999990,
+   "fullgame": {
+    "appid": "3450310",
+    "name": "Europa Universalis V"
+   },
+   "release_date": {
+    "coming_soon": true,
+    "date": "Q1 2027"
+   }
+  }
+ }
+}

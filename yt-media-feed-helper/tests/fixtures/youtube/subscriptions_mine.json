@@ -1,0 +1,54 @@
+{
+ "kind": "youtube#subscriptionListResponse",
+ "nextPageToken": "SP2",
+ "pageInfo": {
+  "totalResults": 7,
+  "resultsPerPage": 50
+ },
+ "items": [
+  {
+   "kind": "youtube#subscription",
+   "snippet": {
+    "title": "Paradox Interactive",
+    "description": "",
+    "resourceId": {
+     "kind": "youtube#channel",
+     "channelId": "UCparadoxinteractive0001"
+    }
+   }
+  },
+  {
+   "kind": "youtube#subscription",
+   "snippet": {
+    "title": "Polski Strateg",
+    "description": "",
+    "resourceId": {
+     "kind": "youtube#channel",
+     "channelId": "UCpolskistrateg000000002"
+    }
+   }
+  },
+  {
+   "kind": "youtube#subscription",
+   "snippet": {
+    "title": "Brandon Sanderson",
+    "description": "",
+    "resourceId": {
+     "kind": "youtube#channel",
+     "channelId": "UCbrandonsanderson000003"
+    }
+   }
+  },
+  {
+   "kind": "youtube#subscription",
+   "snippet": {
+    "title": "Totally Legit Gaming",
+    "description": "",
+    "resourceId": {
+     "kind": "youtube#channel",
+     "channelId": "UClegitgaming00000000005"
+    }
+   }
+  }
+ ]
+}

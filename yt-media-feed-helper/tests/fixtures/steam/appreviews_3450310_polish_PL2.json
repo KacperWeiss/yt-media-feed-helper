@@ -1,0 +1,31 @@
+{
+ "success": 1,
+ "query_summary": {
+  "num_reviews": 1
+ },
+ "reviews": [
+  {
+   "recommendationid": "170000004",
+   "author": {
+    "steamid": "76561198000000004",
+    "num_games_owned": 100,
+    "num_reviews": 5,
+    "playtime_forever": 4100,
+    "playtime_at_review": 4000
+   },
+   "language": "polish",
+   "review": "Mieszane odczucia: eventy Commonwealth ok, ale AI nadal głupie.",
+   "timestamp_created": 1793440800,
+   "timestamp_updated": 1793440800,
+   "voted_up": false,
+   "votes_up": 12,
+   "votes_funny": 0,
+   "weighted_vote_score": "0.5",
+   "comment_count": 0,
+   "steam_purchase": true,
+   "received_for_free": false,
+   "written_during_early_access": false
+  }
+ ],
+ "cursor": "PL2"
+}
