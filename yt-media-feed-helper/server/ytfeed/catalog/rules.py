@@ -278,6 +278,8 @@ def validate_workspace(ws: Path, stale_after: int = 3) -> list[dict]:
     out: list[dict] = []
     try:
         tax = load_yaml(tax_path) if tax_path.exists() else None
+    except ImportError:
+        raise  # PyYAML missing in this interpreter — not a problem with the file; callers decide (doctor: skip)
     except Exception as e:  # noqa: BLE001 — YAML syntax error
         return [issue("error", "YAML_SYNTAX", str(tax_path), str(e).splitlines()[0])]
     if tax is None:
@@ -286,6 +288,8 @@ def validate_workspace(ws: Path, stale_after: int = 3) -> list[dict]:
     if ch_path.exists():
         try:
             ch = load_yaml(ch_path) or {}
+        except ImportError:
+            raise
         except Exception as e:  # noqa: BLE001
             return out + [issue("error", "YAML_SYNTAX", str(ch_path), str(e).splitlines()[0])]
         out.extend(validate_channels(tax, ch, stale_after))

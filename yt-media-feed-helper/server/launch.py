@@ -266,18 +266,43 @@ def doctor(ddir: Path) -> int:
     except OSError as e:
         check("logs_writable", False, f"{logs}: {e}")
     if tax.exists():
-        try:
-            sys.path.insert(0, str(SERVER_DIR))
-            from ytfeed.catalog import rules  # stdlib + PyYAML (if available)
-
-            issues = rules.validate_workspace(ws)
+        issues = _validate_catalog(ddir, ws)
+        if issues is None:
+            check("catalog_valid", True, f'skipped (no plugin venv / PyYAML yet — run: python -I "{SERVER_DIR / "launch.py"}" install)')
+        else:
             errs = [i for i in issues if i["level"] == "error"]
-            check("catalog_valid", not errs, f"{len(errs)} errors, {len(issues) - len(errs)} warnings")
-        except ImportError as e:
-            check("catalog_valid", True, f"skipped (no PyYAML in this interpreter: {e})")
+            detail = f"{len(errs)} errors, {len(issues) - len(errs)} warnings"
+            if errs:
+                detail += ": " + "; ".join(f"{i['code']} {i['message']}"[:120] for i in errs[:3])
+            check("catalog_valid", not errs, detail,
+                  "Fix catalog/taxonomy.yaml or catalog/channels.yaml (skill taxonomy-edit / validate_catalog.py)")
     report["ok"] = all(c["ok"] for c in report["checks"])
     print(json.dumps(report, ensure_ascii=False, indent=2))
     return 0 if report["ok"] else 1
+
+
+def _validate_catalog(ddir: Path, ws: Path) -> list[dict] | None:
+    """Catalog validation issues, run in the plugin venv (which has PyYAML); None when it cannot run yet.
+
+    The launcher itself is stdlib-only and usually runs on the system Python without PyYAML, so validating
+    in-process would only work by accident."""
+    code = ("import json, sys; from pathlib import Path; from ytfeed.catalog import rules; "
+            "print(json.dumps(rules.validate_workspace(Path(sys.argv[1]))))")
+    if venv_ok(ddir):
+        cmd = [str(venv_python(ddir / "venv")), "-I", "-c", f"import sys; sys.path.insert(0, {str(SERVER_DIR)!r}); {code}", str(ws)]
+        try:
+            r = subprocess.run(cmd, capture_output=True, timeout=60, cwd=str(SERVER_DIR), env=_server_env())
+            if r.returncode == 0:
+                return json.loads(r.stdout.decode("utf-8") or "[]")
+        except (OSError, ValueError, subprocess.SubprocessError):
+            pass
+    try:  # fallback: this interpreter happens to have PyYAML
+        sys.path.insert(0, str(SERVER_DIR))
+        from ytfeed.catalog import rules
+
+        return rules.validate_workspace(ws)
+    except ImportError:
+        return None
 
 
 def _machine_env_has(name: str) -> bool:

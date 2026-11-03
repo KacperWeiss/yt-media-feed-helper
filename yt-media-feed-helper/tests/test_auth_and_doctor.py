@@ -54,6 +54,26 @@ def test_invalid_grant_one_command(env, monkeypatch):
     assert e.value.hint.endswith(reauth_command())
 
 
+def test_missing_pyyaml_is_not_reported_as_yaml_syntax_error(ws, monkeypatch):
+    """Regression: without PyYAML, validate_workspace used to report a bogus YAML_SYNTAX error on a valid catalog."""
+    from ytfeed.catalog import rules
+
+    def no_yaml(path):
+        raise ModuleNotFoundError("No module named 'yaml'")
+
+    monkeypatch.setattr(rules, "load_yaml", no_yaml)
+    with pytest.raises(ImportError):
+        rules.validate_workspace(ws.root)
+
+
+def test_doctor_validates_fresh_catalog(ws, env):
+    """doctor reports a freshly initialized catalog as valid (validation runs where PyYAML is available)."""
+    e = {k: v for k, v in os.environ.items() if k != "YTFEED_MOCK"}
+    cp = subprocess.run([sys.executable, str(LAUNCH), "doctor", "--data-dir", str(env["tmp"] / "empty-data")], capture_output=True, env=e)
+    checks = {c["name"]: c for c in json.loads(cp.stdout.decode("utf-8"))["checks"]}
+    assert checks["catalog_valid"]["ok"] is True, checks["catalog_valid"]
+
+
 def test_doctor_detects_missing_venv_and_token(env):
     e = {k: v for k, v in os.environ.items() if k != "YTFEED_MOCK"}
     cp = subprocess.run([sys.executable, str(LAUNCH), "doctor", "--data-dir", str(env["tmp"] / "empty-data")], capture_output=True, env=e)
