@@ -1,7 +1,8 @@
 # Contributing
 
 Working with Claude Code? `CLAUDE.md` holds the project rules, and the project skills in `.claude/skills/`
-(`dev-add-mcp-tool`, `dev-change-contract`, `dev-release`) walk through the changes that touch many files at once.
+(`dev-add-mcp-tool`, `dev-change-contract`, `dev-release`, `dev-package`) walk through the changes that touch many files
+at once.
 
 Thanks for your interest in `yt-media-feed-helper`. Bug reports and pull requests are welcome; for security issues follow
 [docs/SECURITY.md §4](docs/SECURITY.md#4-reporting-a-vulnerability) instead of opening a public issue.

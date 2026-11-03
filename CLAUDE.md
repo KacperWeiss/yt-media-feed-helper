@@ -45,7 +45,8 @@ Dev venv setup: see `CONTRIBUTING.md`. The plugin's own runtime venv lives in `$
   when a live session behaves differently from the synthetic ones.
 
 ## Releasing
-Use the `dev-release` skill (version bump in two manifests, dependency locks, full checks, tag). Push to GitHub only when
-the maintainer asks.
+Use the `dev-release` skill (version bump in two manifests, dependency locks, full checks, tag). Build the distributable
+package (marketplace + instructions + plugin runtime files only, reproducible zip) with the `dev-package` skill.
+Push to GitHub only when the maintainer asks.
 
 Maintainer-only notes (design history, manual test plan) may exist in `docs-internal/` — gitignored, never publish it.

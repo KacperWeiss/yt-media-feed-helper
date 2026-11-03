@@ -42,7 +42,11 @@ git grep -n -I -P "D:[\\/](?!proj[\\/]|Downloads[\\/])|C:[\\/]Users[\\/](?!u[\\/
 - Docs with Mermaid changed: validate the diagrams (`docs-internal/tools/mermaid_check.mjs` or GitHub preview).
 - Smoke test in a real session: `claude --plugin-dir .\yt-media-feed-helper` → `/yt-media-feed-helper:doctor`, `/mcp`.
 
-## 5. Notes and tag
+## 5. Package
+After committing the version bump, build and check the release artifact with the `dev-package` skill
+(`.claude\skills\dev-package\scripts\package.py`, add `--ref vX.Y.Z` once the tag exists). It must end with `OK`.
+
+## 6. Notes and tag
 - Release notes: user-visible changes, breaking changes with the manual migration step (e.g. renamed taxonomy values →
   edit `catalog/taxonomy.yaml` / `channels.yaml`), new settings.
 - Commit `Release vX.Y.Z`, create an annotated tag `vX.Y.Z` locally.
