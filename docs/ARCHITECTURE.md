@@ -246,7 +246,7 @@ sequenceDiagram
     participant SC as scout x N
     participant ST as steam-checker
     participant SU as summarizer
-    U->>M: /yt-media-feed-helper:report <question>
+    U->>M: /yt-media-feed-helper:report #lt;question#gt;
     Note over M: UserPromptSubmit hook adds info-mode context
     M->>S: taxonomy_get, catalog_query(filters)
     M->>S: quota_estimate(plan, begin_report=true)
@@ -265,7 +265,7 @@ sequenceDiagram
     S-->>SU: path + anchors (or validation errors to fix)
     SU-->>M: chat summary
     M->>S: quota_estimate(plan=[], end_report=true)
-    M-->>U: 3–5 bullet TL;DR with links + report path + quota used
+    M-->>U: 3-5 bullet TL#59;DR with links + report path + quota used
 ```
 
 1. The main agent turns the question into a `query_spec`: `mode` (`news` or `reception`), filters, window, topic terms
